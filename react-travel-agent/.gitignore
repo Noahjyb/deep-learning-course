@@ -1,0 +1,10 @@
+.venv/
+venv/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+.env
+.env.*
+.DS_Store
+graph_extraction.json
+Modelfile

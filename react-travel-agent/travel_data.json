@@ -1,0 +1,458 @@
+{
+  "_about": "Synthetic travel dataset: cities, routes, climate, and FX rates. Routes are bidirectional; route prices are in EUR. Rates are units of currency per 1 EUR. All figures are invented.",
+  "rates_per_eur": {
+    "EUR": 1,
+    "USD": 1.08,
+    "RUB": 100,
+    "TRY": 45,
+    "GEL": 3,
+    "AMD": 420,
+    "RSD": 117,
+    "AED": 4
+  },
+  "cities": {
+    "Москва": {
+      "aliases": [
+        "Moscow",
+        "Мск"
+      ],
+      "country": "Россия",
+      "currency": "RUB",
+      "utc_offset": 3,
+      "hotel_per_night": 6000,
+      "description": "Столица России: Кремль, музеи мирового уровня, насыщенная театральная жизнь.",
+      "attractions": [
+        {
+          "name": "Третьяковская галерея",
+          "price": 1000
+        },
+        {
+          "name": "Парк Зарядье",
+          "price": 0
+        },
+        {
+          "name": "Большой театр (балет)",
+          "price": 8000
+        }
+      ],
+      "climate": [
+        -6,
+        -6,
+        -1,
+        7,
+        13,
+        17,
+        19,
+        17,
+        11,
+        5,
+        -1,
+        -5
+      ]
+    },
+    "Санкт-Петербург": {
+      "aliases": [
+        "Saint Petersburg",
+        "Петербург",
+        "СПб",
+        "Питер"
+      ],
+      "country": "Россия",
+      "currency": "RUB",
+      "utc_offset": 3,
+      "hotel_per_night": 5500,
+      "description": "Северная столица: каналы, дворцы, белые ночи в июне.",
+      "attractions": [
+        {
+          "name": "Эрмитаж",
+          "price": 700
+        },
+        {
+          "name": "Петергоф",
+          "price": 1300
+        },
+        {
+          "name": "Прогулка по каналам",
+          "price": 1500
+        }
+      ],
+      "climate": [
+        -5,
+        -6,
+        -2,
+        5,
+        11,
+        16,
+        19,
+        17,
+        11,
+        5,
+        0,
+        -3
+      ]
+    },
+    "Казань": {
+      "aliases": [
+        "Kazan"
+      ],
+      "country": "Россия",
+      "currency": "RUB",
+      "utc_offset": 3,
+      "hotel_per_night": 4000,
+      "description": "Столица Татарстана: Казанский кремль и татарская кухня.",
+      "attractions": [
+        {
+          "name": "Казанский кремль",
+          "price": 0
+        },
+        {
+          "name": "Храм всех религий",
+          "price": 0
+        },
+        {
+          "name": "Остров-град Свияжск",
+          "price": 500
+        }
+      ],
+      "climate": [
+        -10,
+        -10,
+        -4,
+        6,
+        14,
+        18,
+        20,
+        18,
+        11,
+        4,
+        -3,
+        -8
+      ]
+    },
+    "Стамбул": {
+      "aliases": [
+        "Istanbul"
+      ],
+      "country": "Турция",
+      "currency": "TRY",
+      "utc_offset": 3,
+      "hotel_per_night": 2700,
+      "description": "Город на двух континентах: Босфор, мечети и базары.",
+      "attractions": [
+        {
+          "name": "Айя-София",
+          "price": 1100
+        },
+        {
+          "name": "Гранд-базар",
+          "price": 0
+        },
+        {
+          "name": "Круиз по Босфору",
+          "price": 400
+        }
+      ],
+      "climate": [
+        6,
+        6,
+        8,
+        12,
+        17,
+        22,
+        24,
+        25,
+        21,
+        16,
+        12,
+        8
+      ]
+    },
+    "Тбилиси": {
+      "aliases": [
+        "Tbilisi"
+      ],
+      "country": "Грузия",
+      "currency": "GEL",
+      "utc_offset": 4,
+      "hotel_per_night": 150,
+      "description": "Старый город, серные бани и грузинская кухня.",
+      "attractions": [
+        {
+          "name": "Крепость Нарикала",
+          "price": 0
+        },
+        {
+          "name": "Серные бани",
+          "price": 80
+        },
+        {
+          "name": "Канатная дорога",
+          "price": 3
+        }
+      ],
+      "climate": [
+        1,
+        3,
+        7,
+        13,
+        17,
+        22,
+        25,
+        25,
+        20,
+        14,
+        8,
+        3
+      ]
+    },
+    "Ереван": {
+      "aliases": [
+        "Yerevan"
+      ],
+      "country": "Армения",
+      "currency": "AMD",
+      "utc_offset": 4,
+      "hotel_per_night": 25000,
+      "description": "Розовый город с видом на Арарат.",
+      "attractions": [
+        {
+          "name": "Каскад",
+          "price": 0
+        },
+        {
+          "name": "Матенадаран",
+          "price": 2500
+        },
+        {
+          "name": "Храм Гарни",
+          "price": 1500
+        }
+      ],
+      "climate": [
+        -3,
+        0,
+        6,
+        13,
+        17,
+        22,
+        26,
+        26,
+        21,
+        14,
+        6,
+        0
+      ]
+    },
+    "Белград": {
+      "aliases": [
+        "Belgrade"
+      ],
+      "country": "Сербия",
+      "currency": "RSD",
+      "utc_offset": 1,
+      "hotel_per_night": 7000,
+      "description": "Город на слиянии Савы и Дуная, крепость Калемегдан.",
+      "attractions": [
+        {
+          "name": "Крепость Калемегдан",
+          "price": 0
+        },
+        {
+          "name": "Храм Святого Саввы",
+          "price": 0
+        },
+        {
+          "name": "Музей Николы Теслы",
+          "price": 1000
+        }
+      ],
+      "climate": [
+        1,
+        3,
+        8,
+        13,
+        18,
+        21,
+        23,
+        23,
+        18,
+        13,
+        7,
+        2
+      ]
+    },
+    "Дубай": {
+      "aliases": [
+        "Dubai"
+      ],
+      "country": "ОАЭ",
+      "currency": "AED",
+      "utc_offset": 4,
+      "hotel_per_night": 450,
+      "description": "Небоскрёбы, пустыня и пляжи Персидского залива.",
+      "attractions": [
+        {
+          "name": "Бурдж-Халифа (смотровая)",
+          "price": 180
+        },
+        {
+          "name": "Сафари в пустыне",
+          "price": 250
+        },
+        {
+          "name": "Дубай Молл",
+          "price": 0
+        }
+      ],
+      "climate": [
+        19,
+        20,
+        23,
+        27,
+        31,
+        33,
+        35,
+        35,
+        33,
+        29,
+        25,
+        21
+      ]
+    }
+  },
+  "routes": [
+    {
+      "origin": "Москва",
+      "destination": "Санкт-Петербург",
+      "transport": "train",
+      "duration_hours": 4,
+      "price_eur": 40
+    },
+    {
+      "origin": "Москва",
+      "destination": "Санкт-Петербург",
+      "transport": "plane",
+      "duration_hours": 1.5,
+      "price_eur": 60
+    },
+    {
+      "origin": "Москва",
+      "destination": "Санкт-Петербург",
+      "transport": "bus",
+      "duration_hours": 10,
+      "price_eur": 20
+    },
+    {
+      "origin": "Москва",
+      "destination": "Казань",
+      "transport": "train",
+      "duration_hours": 12,
+      "price_eur": 35
+    },
+    {
+      "origin": "Москва",
+      "destination": "Казань",
+      "transport": "plane",
+      "duration_hours": 1.7,
+      "price_eur": 55
+    },
+    {
+      "origin": "Москва",
+      "destination": "Стамбул",
+      "transport": "plane",
+      "duration_hours": 4,
+      "price_eur": 250
+    },
+    {
+      "origin": "Москва",
+      "destination": "Тбилиси",
+      "transport": "plane",
+      "duration_hours": 3,
+      "price_eur": 220
+    },
+    {
+      "origin": "Москва",
+      "destination": "Ереван",
+      "transport": "plane",
+      "duration_hours": 3,
+      "price_eur": 180
+    },
+    {
+      "origin": "Москва",
+      "destination": "Дубай",
+      "transport": "plane",
+      "duration_hours": 5,
+      "price_eur": 320
+    },
+    {
+      "origin": "Санкт-Петербург",
+      "destination": "Стамбул",
+      "transport": "plane",
+      "duration_hours": 4.5,
+      "price_eur": 270
+    },
+    {
+      "origin": "Санкт-Петербург",
+      "destination": "Ереван",
+      "transport": "plane",
+      "duration_hours": 4,
+      "price_eur": 210
+    },
+    {
+      "origin": "Казань",
+      "destination": "Стамбул",
+      "transport": "plane",
+      "duration_hours": 4,
+      "price_eur": 230
+    },
+    {
+      "origin": "Казань",
+      "destination": "Дубай",
+      "transport": "plane",
+      "duration_hours": 5,
+      "price_eur": 300
+    },
+    {
+      "origin": "Стамбул",
+      "destination": "Белград",
+      "transport": "plane",
+      "duration_hours": 2,
+      "price_eur": 110
+    },
+    {
+      "origin": "Стамбул",
+      "destination": "Белград",
+      "transport": "bus",
+      "duration_hours": 14,
+      "price_eur": 60
+    },
+    {
+      "origin": "Стамбул",
+      "destination": "Тбилиси",
+      "transport": "plane",
+      "duration_hours": 2.5,
+      "price_eur": 140
+    },
+    {
+      "origin": "Тбилиси",
+      "destination": "Ереван",
+      "transport": "bus",
+      "duration_hours": 6,
+      "price_eur": 25
+    },
+    {
+      "origin": "Тбилиси",
+      "destination": "Ереван",
+      "transport": "train",
+      "duration_hours": 10,
+      "price_eur": 30
+    },
+    {
+      "origin": "Ереван",
+      "destination": "Дубай",
+      "transport": "plane",
+      "duration_hours": 3.5,
+      "price_eur": 190
+    }
+  ]
+}
